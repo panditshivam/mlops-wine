@@ -30,7 +30,7 @@ jobs:
           #cat results.txt >> report.md
           #cml-send-comment report.md
           
-          echo "## Model METRICS" > report.md
+          echo "## Model METRIC" > report.md
           cat metrics.txt >> report.md
 
           echo "## Data Visualization" >> report.md
