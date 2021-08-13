@@ -18,7 +18,9 @@ jobs:
       #     python-version: '3.x'
       #- uses: iterative/setup-cml@v1
       - name: Train model
-        run: |
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: 
           # Your ML workflow goes here
           sudo -H pip install -r requirements.txt
           python train.py
