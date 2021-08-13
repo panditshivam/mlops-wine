@@ -33,6 +33,6 @@ jobs:
           #cml-publish feature_importance.png --md >> report.md
           #cml-publish residuals.png -_md >> report.md
 
-          cml-send-comment report.md
+          #cml-send-comment report.md
 
 
